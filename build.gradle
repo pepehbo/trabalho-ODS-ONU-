@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '17.0.2'
+    modules = ['javafx.controls']
+}
+
+application {
+    mainClass = 'ui.CalculatorUI'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
